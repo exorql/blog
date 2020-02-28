@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby-plugin-s3 deploy",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --cache --ext .js,.jsx .",
@@ -53,9 +53,11 @@
     "gatsby-plugin-offline": "^3.0.35",
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sass": "^2.1.29",
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-plugin-typography": "^2.3.22",
     "gatsby-remark-autolink-headers": "^2.1.24",
     "gatsby-remark-copy-linked-files": "^2.1.37",
     "gatsby-remark-external-links": "0.0.4",
@@ -79,7 +81,10 @@
     "react": "^16.12.0",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
     "@babel/core": "7.8.4",
