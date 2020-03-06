@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  install:
+    commands:
+     - yarn
+  pre_build:
+    commands:
+      - yarn build
+  build:
+    commands:
+      - echo run build command.
+      - aws s3 sync ./public s3://haruto-blog-bucket --delete --acl "public-read"
