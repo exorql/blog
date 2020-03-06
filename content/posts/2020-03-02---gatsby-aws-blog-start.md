@@ -51,7 +51,7 @@ gatsby develop
 デプロイの方法はGatsby公式ページに記載があるのでそれを参考に行いました。
 [https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/](https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/)
 
-## メリット・デメリット
+## S3のメリット・デメリット
 ### メリット
 - サーバーレスなのでサーバーの保守が不要
   - サーバーのダウンsや監視・復旧などを気にする必要がない
