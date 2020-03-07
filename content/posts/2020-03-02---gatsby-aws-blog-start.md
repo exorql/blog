@@ -66,3 +66,9 @@ gatsby develop
 ### デメリット
 - S3単体ではPHPやRubyといったサーバーサイドスクリプトを処理する機能がないのでWebアプリケーションなどは作成できない。
   - LambdaやDynamoDBと組み合わせることでサーバーレスアプリケーションを作ることができる。
+
+## Codebuildを使ってS3にデプロイ
+Codebuildを使ってgithubにあげたソースコードをビルドしS3にアップロードするようにしました。
+https://aws.amazon.com/jp/codebuild/
+
+※ GitへのPushをトリガーにビルドを開始したい場合はプライベートリポジトリである必要があります。
