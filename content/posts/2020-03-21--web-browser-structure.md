@@ -4,11 +4,12 @@ date: "2020-03-21T22:12:03.284Z"
 template: "post"
 draft: false
 slug: "web-browser-structure"
-category: "SEO"
+category: "UX"
 tags:
   - "SEO"
   - "WEB"
   - "browser"
+  - "UX
 description: "まず、ブラウザはリクエストしたURLからレンダリングに必要なリソースをサーバーから読み込みます。具体的には、HTMLファイル、CSSファイル、JavaScriptファイル、jpeg、png、gif、svgなどの画像ファイルをサーバからダウンロードします。"
 ---
 
