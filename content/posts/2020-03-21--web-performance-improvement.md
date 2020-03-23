@@ -12,6 +12,8 @@ tags:
 description: "ウェブパフォーマンスを良くする最大の目的はユーザーがある目的のために費やす時間やリソースをできる限り少なくすることで、その分ユーザーの時間を豊にできることだと思います。そのためウェブページの初期ロード時のパフォーマンスだけでなくウェブページ内でのインタラクションの描画のパフォーマンスも重要といえるでしょう。"
 ---
 
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/4839966001/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4839966001&linkCode=as2&tag=10010d-22&linkId=ddffdedd959ea4e72a6ce4b90a884a61"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4839966001&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=10010d-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&l=am2&o=9&a=4839966001" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 SEOに関わるエンジニア・デザイナーにお勧めしたい
 [現場のプロから学ぶ SEO技術バイブル(特典PDF付き)](https://amzn.to/3dn4PhA) という本の中の「サイトの高速化について」読んだものをメモとして残しておく。
 
@@ -43,7 +45,7 @@ JavaScriptで対応すべき点は以下2つ
 画像ファイルのダウンロード前にHTMLやCSSで画像サイズを指定することが重要。width/heightの指定が必須
 
 ## ネットワーク処理の高速化
-ここでは、通信量・通信回数・通信距離に分けて考えます。
+ここでは、通信量・通信回数・通信距離の3つのアプローチで考えます。
 ### 通信量
 テキストファイル（HTML/CSS/JavaScript）の圧縮
 1. Minify圧縮
