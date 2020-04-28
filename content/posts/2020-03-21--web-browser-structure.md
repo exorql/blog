@@ -13,6 +13,8 @@ tags:
 description: "まず、ブラウザはリクエストしたURLからレンダリングに必要なリソースをサーバーから読み込みます。具体的には、HTMLファイル、CSSファイル、JavaScriptファイル、jpeg、png、gif、svgなどの画像ファイルをサーバからダウンロードします。"
 ---
 
+<a href="https://www.amazon.co.jp/gp/product/4774189677/ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=10010d-22&linkId=49b64a79681773b4e664b7a7f405fa22&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774189677&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4774189677" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 [Webフロントエンドハイパフォーマンスチューニング](https://amzn.to/3abVW8T)
 という本を読んだときのメモを残しておく。
 
