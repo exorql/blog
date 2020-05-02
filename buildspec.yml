@@ -9,4 +9,4 @@ phases:
   build:
     commands:
       - echo run build command.
-      - aws s3 sync ./public s3://haruto-blog-bucket --delete --acl "public-read"
+      - aws s3 sync ./public s3://blog.harutowatanabe.com --delete --acl "public-read"

@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-          bucketName: 'haruto-blog-bucket'
+          bucketName: 'blog.harutowatanabe.com'
       },
     },
     {
