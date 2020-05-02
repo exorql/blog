@@ -1,5 +1,5 @@
 ---
-title: "GatsbyとS3でブログを公開する際の手順"
+title: "Gatsby + Route53 + CloudFront + S3 + Codebuildで静的サイト公開した手順まとめ"
 date: "2020-03-02T22:40:32.169Z"
 template: "post"
 draft: false
@@ -9,6 +9,9 @@ tags:
   - "Gatsby"
   - "JAMstack"
   - "S3"
+  - "CloudFront"
+  - "Route53"
+  - "Codebuild"
 description: "Gatsbyとは一言でいえば静的サイトジェネレータ(Static Site Generator, SSG)です。静的サイトジェネレータとは事前ビルドによりあらかじめHTMLやCSSを生成しておいてユーザーからのアクセスがきた場合、リクエストに応じて対象のコンテンツを配信する方法になります。"
 ---
 
@@ -73,4 +76,19 @@ https://aws.amazon.com/jp/codebuild/
 
 ※ GitへのPushをトリガーにビルドを開始したい場合はプライベートリポジトリである必要があります。
 
-## CloudFrontを通して独自ドメインを公開
+## ドメインをRoute53で管理
+[お名前ドットコム](http://www.onamae.com/)でドメインを取得して、AmazonRoute53を設定しました。
+AmazonRoute53は可用性・拡張性の高いDNSサーバーをサービスとして使えます。
+料金はDNSのゾーン単位で、ゾーンの利用+月100万クエリまでの問い合わせで1$と格安のもあり、勉強用途での利用を決めました。
+設定も簡単でざっくり以下のの3ステップで完了します。
+1. AmazonRoute53の管理画面を開いて、Hosted Zoneの作成
+1. レコードのセット（Aレコードの作成）
+1. お名前.comの管理画面上からネームサーバーをRoute53に変更。
+
+## CloudFrontでホスティングをSSL/TLSに対応させる
+以下の手順で完了します。
+1. AWS Certificate Manager（ACM）で証明書の取得
+1. CloudFrontディストリビューションの作成
+1. Route53レコードのエイリアス先を`hogehoge.cloudfront.net.`にアクセス先を変更
+
+※SSL証明書を使うには、バージニア北部リージョンでないといけないので切り替えが必要です。
