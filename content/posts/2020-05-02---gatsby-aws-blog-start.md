@@ -1,6 +1,6 @@
 ---
 title: "Gatsby + Route53 + CloudFront + S3 + Codebuildで静的サイト公開した手順まとめ"
-date: "2020-03-02T22:40:32.169Z"
+date: "2020-05-02T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "gatsby-aws-blog-start"
