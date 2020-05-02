@@ -43,3 +43,10 @@ Kindle Unlimitedで無料で読むこともできるのでおすすめです。
 
 こちらの本は数学を学び直したい社会人向けで、広く浅く学ぶことできる。この本の良いところは、各項目に「教養」「実用」「受験」それぞれの重要性を星5段階で示されていて、読者の目的によって効率よく学ぶことができる。
 例えば三角関数の章でも一歩踏み込んでフーリエ変換などの解説もあり実用に役立つ知識が幅広く身に着けることができます。ただあくまで広く浅い知識で深掘りしたいものがある場合、別の書籍で学習すると良いと思います。
+
+### 東大の先生! 文系の私に超わかりやすく数学を教えてください!
+
+<a href="https://www.amazon.co.jp/%E6%9D%B1%E5%A4%A7%E3%81%AE%E5%85%88%E7%94%9F-%E6%96%87%E7%B3%BB%E3%81%AE%E7%A7%81%E3%81%AB%E8%B6%85%E3%82%8F%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%8F%E6%95%B0%E5%AD%A6%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84-%E8%A5%BF%E6%88%90-%E6%B4%BB%E8%A3%95/dp/4761273917/ref=as_li_ss_il?_encoding=UTF8&qid=&sr=&linkCode=li3&tag=10010d-22&linkId=171cfb66bc4452d9e3580300fc30098c&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4761273917&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4761273917" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+微分積分の章だけ読みました。数学IIの微分積分をやる前に読んでおくと、考え方やイメージがつくので勉強効率がかなり上がると思います。
+私も「微分積分なにそれ美味しいの？」みたいな状態からこの本で一気に概念を理解できました。

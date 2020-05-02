@@ -8,6 +8,7 @@ category: "ビジネス書"
 tags:
   - "読書"
   - "メモの魔力"
+  - "ビジネス書"
 description: "抽象化によって、知覚した情報を知的生産につなげることができる。これこそが本書のメモ術の根幹となる部分。
 著者は抽象化において3つの問を活用している。
 What型は目の前にある現象や考え方を抽象化して言語化するもの。
@@ -16,8 +17,10 @@ Why型が別の企画に転用するための、ある映画がヒットした�
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-[メモの魔力](https://amzn.to/2Ud7K5j) 
-を読んだのでメモとして残しておく。
+<a href="https://www.amazon.co.jp/%E3%83%A1%E3%83%A2%E3%81%AE%E9%AD%94%E5%8A%9B-Magic-Memos-NewsPicks-Book/dp/4344034082/ref=as_li_ss_il?_encoding=UTF8&qid=1588393838&sr=8-1&linkCode=li3&tag=10010d-22&linkId=16212bedd5b670796947534ef9744660&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4344034082&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4344034082" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+年末の空いた時間を使って普段はあまり自分から取りにいかない本を読もうと思い「メモの魔力」を読んだ。
+ビジネス書は学生時代に読んだぶりだったが学びが多かったのでメモとして残しておく。
 
 ## ファクトを記録するためのメモと知的生産のためのメモ
 本書では2種類のメモがあると記載されている。
