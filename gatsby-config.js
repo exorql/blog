@@ -16,6 +16,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: siteConfig.googleAnalyticsId,
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
           bucketName: 'blog.harutowatanabe.com'
