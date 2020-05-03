@@ -1,5 +1,5 @@
 ---
-title: "Gatsby + Route53 + CloudFront + S3 + Codebuildで静的サイト公開した手順まとめ"
+title: "Gatsby + Route53 + CloudFront + S3 + CodeBuildで静的サイトを公開した手順まとめ"
 date: "2020-05-02T22:40:32.169Z"
 template: "post"
 draft: false
@@ -11,7 +11,7 @@ tags:
   - "S3"
   - "CloudFront"
   - "Route53"
-  - "Codebuild"
+  - "CodeBuild"
 description: "Gatsbyとは一言でいえば静的サイトジェネレータ(Static Site Generator, SSG)です。静的サイトジェネレータとは事前ビルドによりあらかじめHTMLやCSSを生成しておいてユーザーからのアクセスがきた場合、リクエストに応じて対象のコンテンツを配信する方法になります。"
 ---
 
@@ -70,8 +70,8 @@ gatsby develop
 - S3単体ではPHPやRubyといったサーバーサイドスクリプトを処理する機能がないのでWebアプリケーションなどは作成できない。
   - LambdaやDynamoDBと組み合わせることでサーバーレスアプリケーションを作ることができる。
 
-## Codebuildを使ってS3にデプロイ
-Codebuildを使ってgithubにあげたソースコードをビルドしS3にアップロードするようにしました。
+## CodeBuildを使ってS3にデプロイ
+CodeBuildを使ってgithubにあげたソースコードをビルドしS3にアップロードするようにしました。
 https://aws.amazon.com/jp/codebuild/
 
 ※ GitへのPushをトリガーにビルドを開始したい場合はプライベートリポジトリである必要があります。
