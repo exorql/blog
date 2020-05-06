@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'HARUTO WATANABE',
     photo: '/profile.jpeg',
-    bio: 'Greetings, I’m haruto. I’m a software engineer living in Tokyo, Japan.',
+    bio: 'I’m a software engineer living in Tokyo, Japan.',
     contacts: {
       email: 'w.haru10n@gmail.com',
       facebook: 'haruto.watanabe.5',
