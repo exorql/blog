@@ -36,7 +36,9 @@ h1 {
 }
 
 h2 {
-  font-size: $typographic-base-font-size * 1.6875;
+  font-size: $typographic-base-font-size * 1.5875;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1em;
   @include line-height(1.5);
   @include margin-top(2);
   @include margin-bottom(.5);
