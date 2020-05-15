@@ -10,9 +10,10 @@ tags:
   - "programming"
   - "art"
 description: "Matt Pearsonは生成的と呼ぶべき条件として自律性と予測不可能性を挙げています。つまり、ジェネラティブアートではデータとアルゴリズによるかたち生成プロセスが自律性と予測不可能性を持つことを志向します。"
+socialImage: "/media/generative-art.jpg"
 ---
 
-<a href="https://www.amazon.co.jp/%E6%95%B0%E5%AD%A6%E3%81%8B%E3%82%89%E5%89%B5%E3%82%8B%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%A9%E3%83%86%E3%82%A3%E3%83%96%E3%82%A2%E3%83%BC%E3%83%88-Processing%E3%81%A7%E5%AD%A6%E3%81%B6%E3%81%8B%E3%81%9F%E3%81%A1%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E5%B7%B4%E5%B1%B1-%E7%AB%9C%E6%9D%A5/dp/4297104636/ref=as_li_ss_il?_encoding=UTF8&qid=1589012717&sr=8-1&linkCode=li3&tag=10010d-22&linkId=0f14efd66c92d08453dd4d76ed8d4873&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4297104636&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4297104636" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+[![数学から創るジェネラティブアート - Processingで学ぶかたちのデザイン](/media/generative-art.jpg)](https://amzn.to/3dweemu)
 
 普段の仕事ではwebをメインに開発していますが、趣味でデジタルアートなどをやっています。<br>今回は「ジェネラティブアートとはどういったものなのか」の話をメインに、ジェネラティブアートに興味がある方や初学者向けにまとめた内容になっています。
 
