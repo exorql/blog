@@ -16,6 +16,7 @@ cell: "/media/cell-automaton2.png"
 drawCell: "/media/draw-cell-automaton2.png"
 ---
 
+
 ## セルオートマトンとは
 _格子状のセルと単純な規則による、離散的計算モデルである。計算可能性理論、数学、物理学、複雑適応系、数理生物学、微小構造モデリングなどの研究で利用される。非常に単純化されたモデルであるが、生命現象、結晶の成長、乱流といった複雑な自然現象を模した、驚くほどに豊かな結果を与えてくれる。[wikipedia](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%88%E3%83%B3)_
 <br>
@@ -52,27 +53,76 @@ _格子状のセルと単純な規則による、離散的計算モデルであ�
 ### 確率的セルオートマトン
 セルオートマトンは人工生命の分野も有名で、セルは細胞の状態変化のような挙動をします。実際の自然現象における状態変化は一定ではなく偶発的な差異によって挙動が変わることも起こります。
 
-![hog](/media/probability-ca.png)
+![確率的セルオートマトン](/media/probability-ca.png)
 
+以下が実際のソースコードになります。クリックすると毎回違う形が描画されます。
+興味がある方は手元で動かしてみてください。
 
-例えば以下のように簡単なランダム関数を使って状態遷移ルールのプログラムに偶発性を入れます。
 ```
-int transition(int a, int b){
+int num = 200;  //表示する世代数
+int mod = 2;  //法とする数
+int[] state = {1};  //初期状態
+int gen = 0;
+void setup(){
+  size(1000, 500);
+  colorMode(HSB, 1);
+  background(0, 0, 1);
+}
+void draw(){
+  if (gen < num){
+    drawCell(gen);
+    updateState();
+  }
+}
+void mouseClicked(){
+  gen = 0;
+  state = new int[]{1};  //初期状態
+  mod = int(random(2, 20));
+  println(mod);
+  background(0, 0, 1);
+}
+
+void drawCell(float y){
+  float scalar = width * 0.5 / num; // セルの大きさ
+  float x = (width - state.length * scalar) * 0.5; // セルのx座標
+  y *= scalar;
+  noStroke(); //輪郭線を描かない
+  for (int i = 0; i < state.length; i++){
+    fill(state[i] * 1.0 / mod, state[i] * 1.0 / mod, 1);
+    rect(x, y, scalar, scalar); // 四角形を描画する関数
+    x += scalar; // x座標方向にセルをずらす
+  }
+}
+
+// 簡単なランダム関数を使って状態遷移ルールのプログラムに偶発性を入れます。
+int transition(int a, int b, int c){
   int d;
   if (random(1) < 0.999) {
-    //99.9%の確率でこのルールを選択
+    d = a + b + c; //99.9%の確率でこのルールを選択
   } else {
-    //0.1%の確率
+    d = a + c; //0.1%の確率
   }
   d %= mod;
   return d;
+}
+
+void updateState() {
+  int[] BOUNDARY = {0, 0};
+  int[] nextState = new int[state .length + 2]; // 次の世代の状態
+  state = splice(state, BOUNDARY, 0); // 既存の配列に境界値を加える
+  state = splice(state, BOUNDARY, state.length); // 配列の最後に境界値を加える
+  for(int i=1; i < state.length -1; i++){
+    nextState[i-1] = transition(state[i-1], state[i], state[i+1]); //次世代のセルの状態の計算
+  }
+  state = nextState; //セルの状態を更新
+  gen++; //世代を一つ増やす
 }
 ```
 
 ## 2次元セルオートマトン
 1次元セルオートマトンは1行に並べられたセルの時間発展を表したものでした。
 2次元セルオートマトンは縦横2つの方向に隣接するセルから中央のセルが決まるものになります。
-2次元セルオートマトンでは、ノイマン近傍とムーア近傍と呼ばれる有名な定義があります。ノイマン近傍は以下のように4つのセルを近傍とするのに対し、ムーア近傍は斜めも含む8つのセルを近傍とする。
+2次元セルオートマトンでは、ノイマン近傍とムーア近傍と呼ばれる有名な定義があります。ノイマン近傍は以下のように4つのセルを近傍とするのに対し、ムーア近傍は斜めも含む8つのセルを近傍とします。
 [wikipedia](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%AB%E3%83%BB%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9E%E3%83%88%E3%83%B3#%E6%A6%82%E8%A6%81)
 
 ![2次元セルオートマトン・ノイマン近傍](/media/cell-automaton2.png)
@@ -81,8 +131,8 @@ int transition(int a, int b){
 
 ![2次元セルオートマトン](/media/draw-cell-automaton2.png)
 
-コードは以下になります。
-```pde
+ソースコードは以下になります。
+```
 int num = 250; //行と列の長さ
 int mod = 2; // 法とする数
 int[][] state = new int[num][num]; //セルの状態を表す行列
