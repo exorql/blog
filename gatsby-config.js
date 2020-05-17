@@ -32,7 +32,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: 'pages'
+        name: 'media',
       }
     },
     {
@@ -109,35 +109,6 @@ module.exports = {
           output: '/rss.xml',
           title: siteConfig.title
         }]
-      }
-    },
-    {
-      resolve: `gatsby-remark-prismjs`,
-      options: {
-        classPrefix: "language-",
-        inlineCodeMarker: null,
-        aliases: {},
-        showLineNumbers: false,
-        noInlineHighlight: false,
-        languageExtensions: [
-          {
-            language: "superscript",
-            extend: "javascript",
-            definition: {
-              superscript_types: /(SuperType)/,
-            },
-            insertBefore: {
-              function: {
-                superscript_keywords: /(superif|superelse)/,
-              },
-            },
-          },
-        ],
-        prompt: {
-          user: "root",
-          host: "localhost",
-          global: false,
-        }
       }
     },
     {
