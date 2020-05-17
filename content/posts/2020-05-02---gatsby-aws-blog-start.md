@@ -72,6 +72,13 @@ gatsby develop
 
 ## CodeBuildを使ってS3にデプロイ
 CodeBuildを使ってgithubにあげたソースコードをビルドしS3にアップロードするようにしました。
+また、デプロイ時にはCloudFrontのキャッシュクリアを自動でするよう設定しました。<br>
+[AWS CloudFrontのキャッシュクリアをCodeBuildで自動化する](https://blog.harutowatanabe.com/posts/aws-cloudfront-codebuild)
+<br>
+
+料金も安価で、build.general1.smallを使って1か月あたりビルドを100分使用できます。またCodeBuildの無料利用枠は、12か月間のAWS無料利用枠の期間が終了しても自動的に期限切れになることはありません。
+<br>
+詳細はこちら
 https://aws.amazon.com/jp/codebuild/
 
 ※ GitへのPushをトリガーにビルドを開始したい場合はプライベートリポジトリである必要があります。
