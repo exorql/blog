@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://blog.harutowatanabe.com/',
   pathPrefix: '/',
   title: 'Blog by Haruto Watanabe',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 5,
   googleAnalyticsId: 'UA-165368779-1',
   useKatex: false,
   menu: [
