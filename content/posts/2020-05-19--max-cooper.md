@@ -3,7 +3,7 @@ title: "Max Cooper（マックス・クーパー）の映像作品まとめ"
 date: "2020-05-19T22:40:32.169Z"
 template: "post"
 draft: false
-slug: ""
+slug: "max-cooper"
 category: "メディアアート"
 tags:
   - "ビジュアルアーティスト"
