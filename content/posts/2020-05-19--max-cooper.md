@@ -11,26 +11,12 @@ tags:
   - "math"
   - "art"
   - "music"
-description: "Max Cooper（マックス・クーパー）はエレクトロニック・ミュージックとヴィジュアル・アートとサイエンスを追い求めてきているアーティストである。※2008年には計算生物学の博士号を取得したほどの人物でもある。
+description: "Max Cooper（マックス・クーパー）はエレクトロニック・ミュージックとヴィジュアル・アートとサイエンスを追い求めてきているアーティストである。※2008年には計算生物学の博士号を取得している。
 アートとサイエンスの幅広いコラボレーション作品をこれまでリリースしてきたMax Cooperの作品の中で個人的に衝撃を受けた作品を紹介していきます。"
 ---
 
 Max Cooper（マックス・クーパー）はエレクトロニック・ミュージックとヴィジュアル・アートとサイエンスを追い求めてきているアーティストである。※2008年には計算生物学の博士号を取得したほどの人物でもある。<br>
 アートとサイエンスの幅広いコラボレーション作品をこれまでリリースしてきたMax Cooperの作品の中で個人的に衝撃を受けた作品を紹介していきます。
-
-
-## Repetition
-`youtube:https://www.youtube.com/embed/nO9aot9RgQc`
-
-「反復の中に内包される退屈な反復」がテーマとなっている。この作品では成長と進化の無限の追求、都市の無秩序な無限の未来などがMVの中で描かれいて、無限の努力の価値に目を向けられています。<br>
-Max Cooperは「一見、退屈に見えるかもしれない反復をこの作品を通じて魅力的な反復を作ること」だと語っている。
-
-> _where we told the human side of the story, our endless pursuit of growth and "progress", our duplication of built form and expanding cities, looking to an unbounded future of urban sprawl._
-
-[こちらのインタビュー](https://www.mixmag.jp/features/max-cooper-interview-2019.html)では以下のようなことを言っている。
-
->言うまでもなく、社会は個人の集合体だからね。社会的な成長、肉体的な成長、精神的な成長、知識的な成長…。その結果、どうやら成長は人間の根源的な欲求であるらしいことに気付いたんだ。で、その横にはテクノロジーが必ずある。そしてそれは無限に続く。つまり、テクノロジーは成長と無限に関係を持たなければならないんだ<br>
-成長が人間の根源的な欲求であるならば、社会とテクノロジーは人間が滅ぶまで発展を続けなければならない。今日の物理学者によると、数十億年先に宇宙が死滅するポイントがあるらしいんだ。しかしそれが現時点での研究結果であることも重要なんだよ。人間の成長への欲求が、驚くべきテクノロジーを生む可能性だってあるわけで。そう考えると、“無限”は究極的な答えなんだ。
 
 ## Aleph 2
 `youtube:https://www.youtube.com/embed/tNYfqklRehM`
@@ -60,3 +46,16 @@ Max Cooperは「一見、退屈に見えるかもしれない反復をこの作�
 
 > Origins shows how electromagnetism - one of the four fundamental forces, helps create the types of cell structures that allow life to emerge.
 What you see is water mixed with an oily ferrofluid. Because their charge properties are different, they cannot mix – each repels the other. But when forcibly mixed by mechanical or magnetic forces, the result is that spheres form of one fluid inside the other – basic cell-like structures.
+
+## Repetition
+`youtube:https://www.youtube.com/embed/nO9aot9RgQc`
+
+「反復の中に内包される退屈な反復」がテーマとなっている。この作品では成長と進化の無限の追求、都市の無秩序な無限の未来などがMVの中で描かれいて、無限の努力の価値に目を向けられています。<br>
+Max Cooperは「一見、退屈に見えるかもしれない反復をこの作品を通じて魅力的な反復を作ること」だと語っている。
+
+> _where we told the human side of the story, our endless pursuit of growth and "progress", our duplication of built form and expanding cities, looking to an unbounded future of urban sprawl._
+
+[こちらのインタビュー](https://www.mixmag.jp/features/max-cooper-interview-2019.html)では以下のようなことを言っている。
+
+>言うまでもなく、社会は個人の集合体だからね。社会的な成長、肉体的な成長、精神的な成長、知識的な成長…。その結果、どうやら成長は人間の根源的な欲求であるらしいことに気付いたんだ。で、その横にはテクノロジーが必ずある。そしてそれは無限に続く。つまり、テクノロジーは成長と無限に関係を持たなければならないんだ<br>
+成長が人間の根源的な欲求であるならば、社会とテクノロジーは人間が滅ぶまで発展を続けなければならない。今日の物理学者によると、数十億年先に宇宙が死滅するポイントがあるらしいんだ。しかしそれが現時点での研究結果であることも重要なんだよ。人間の成長への欲求が、驚くべきテクノロジーを生む可能性だってあるわけで。そう考えると、“無限”は究極的な答えなんだ。
