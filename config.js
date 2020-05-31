@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 7,
   googleAnalyticsId: 'UA-165368779-1',
   useKatex: false,
   menu: [
