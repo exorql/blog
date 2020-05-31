@@ -4,7 +4,7 @@ date: "2020-04-26T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "math-review"
-category: "math"
+category: "数学"
 tags:
   - "math"
   - "review"
