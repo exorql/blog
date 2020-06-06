@@ -36,7 +36,16 @@ Kindle Unlimitedで無料で読むこともできるのでおすすめです。
 
 <a href="https://www.amazon.co.jp/%E9%95%B7%E5%B2%A1%E5%85%88%E7%94%9F%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%8C%E8%81%9E%E3%81%91%E3%82%8B%E9%AB%98%E6%A0%A1%E6%95%B0%E5%AD%A6%E3%81%AE%E6%95%99%E7%A7%91%E6%9B%B8%E6%95%B0%E5%AD%A6-%E8%80%83%E3%81%88%E3%82%8B%E5%A4%A7%E4%BA%BA%E3%81%AE%E5%AD%A6%E3%81%B3%E7%9B%B4%E3%81%97%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E9%95%B7%E5%B2%A1-%E4%BA%AE%E4%BB%8B/dp/4010527129/ref=as_li_ss_il?_encoding=UTF8&qid=&sr=&linkCode=li3&tag=10010d-22&linkId=cba50aa191766de267f332a8785f5454&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4010527129&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4010527129" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-シリーズの数学I、数学A、数学II、数学B、数学III、数学Cの6冊を1冊にまとめた本です。教科書６冊分９８８ページに、１０６時間分の音声解説付き。講義のボリュームは凄いですが、音声付きのためオンライン講義を受けているかのような感覚で勉強できたのでスラスラ進めることができました。
+シリーズの数学I、数学A、数学II、数学B、数学III、数学Cの6冊を1冊にまとめた本です。教科書６冊分９８８ページに、１０６時間分の音声解説付き。講義のボリュームは凄いですが、音声付きのためオンライン講義を受けているかのような感覚で勉強できたのでスラスラ進めることができました。<br>
+
+ボリュームが多いため必要な領域である以下の項目を重点的に学習しました。
+- 統計数理の基礎となる分布、ばらつき、確率的な概念（数Ⅰ、数B）
+- 三角関数、指数関数他代表的な関数(数Ⅱ)
+- 数列（数B、数Ⅲ）
+- 二次曲線（数Ⅲ）
+- 空間座標（数B）、複素数平面（数Ⅲ）、表座標的な概念（数Ⅲ）
+- 線形代数の基礎となるベクトル（数B）、行列、内積・外積（数B）
+- 極限（数Ⅲ）、微分・積分の基礎概念とその図形的な意味
 
 ※2012年の高校数学のカリキュラム変更により、[数C](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6C)が廃止されました。
 が上記の本は2011年のため機械学習に必要な行列も含まれています！
