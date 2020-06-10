@@ -4,7 +4,7 @@ date: "2020-03-21T22:12:03.284Z"
 template: "post"
 draft: false
 slug: "web-browser-structure"
-category: "UX"
+category: "フロントエンド"
 tags:
   - "SEO"
   - "WEB"
