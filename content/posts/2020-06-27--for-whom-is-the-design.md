@@ -262,6 +262,8 @@ Image4: "/media/double-diamond.png"
 ### デザインのダブルダイヤモンドモデル
 <img src="/media/double-diamond.png" alt="デザインのダブルダイヤモンドモデル" width="600" height="418">
 
+https\://uxdaystokyo.com/articles/glossary/doublediamond/を参照
+
 正しい問題を見つけるための発散と収束のフェーズである「探索」と「定義」、正しい解決策を見つける発散と収束のフェーズである「展開」と「提案」がある。この二重の発散-収束のパターンをダブルダイヤモンドモデルという。<br>
 発散と収束の繰り返しは、解決すべき正しい問題を適切に定めるという点で重要であり、解決する最良の方法である。
 
