@@ -24,6 +24,10 @@ Image2: "/media/openFrameworks_setup.png"
 ## 前準備
 1. Xcodeが入っている必要があります。入っていない場合はインストールしましょう
 2. Xcodeのコマンドラインツール（command line tools）をインストールします
+```
+xcode-select --install
+```
+上記のコマンドを打つと、コマンドラインツールのインストーラーが起動します。「Install」ボタンでインストールを開始します。
 
 ## openFrameworksのダウンロード
 以下URLからOS Xのパッケージファイルをダウンロードします。
