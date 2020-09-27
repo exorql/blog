@@ -56,10 +56,10 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-        ofBoxPrimitive box; // 立方体
-        ofSpherePrimitive sphere; // 球
-        ofEasyCam cam; // カメラ
-        ofLight light; // ライト
+    ofBoxPrimitive box; // 立方体
+    ofSpherePrimitive sphere; // 球
+    ofEasyCam cam; // カメラ
+    ofLight light; // ライト
 };
 ```
 
