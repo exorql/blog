@@ -61,7 +61,7 @@ _格子状のセルと単純な規則による、離散的計算モデルであ�
 興味がある方は手元で動かしてみてください。<br>
 ※ 実行環境はprocessingです
 
-```
+```javascript
 int num = 200;  //表示する世代数
 int mod = 2;  //法とする数
 int[] state = {1};  //初期状態
@@ -135,7 +135,7 @@ void updateState() {
 ![2次元セルオートマトン](/media/draw-cell-automaton2.png)
 
 ソースコードは以下になります。
-```
+```javascript
 int num = 250; //行と列の長さ
 int mod = 2; // 法とする数
 int[][] state = new int[num][num]; //セルの状態を表す行列

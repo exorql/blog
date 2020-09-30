@@ -25,6 +25,9 @@ openFrameworksの描画の基本はOpenGLです。OpenGLはそもそも３次元
 - ofEasycam -	簡単に利用可能なカメラ(視点)機能
 - ofLight -	ライティング効果
 
+openFrameworksの公式リファレンス
+https://openframeworks.cc/documentation/
+
 ## 3Dプリミティブの描画
 
 ![openframeworks-3d](/media/openframeworks-3d.png)
@@ -32,39 +35,39 @@ openFrameworksの描画の基本はOpenGLです。OpenGLはそもそも３次元
 今回は上記のようなアウトプットを出力するためにofApp.hとofApp.cppに以下のプログラムを記載します。
 新規プロジェクトを立ち上げて以下のソースコードを貼り付けてみてください。<br>
 ofApp.hに書く必要なクラスのインスタンスは以下。
-```
+```javascript
 #pragma once
 
 #include "ofMain.h"
 
 class ofApp : public ofBaseApp{
 
-	public:
-		void setup();
-		void update();
-		void draw();
+  public:
+      void setup();
+      void update();
+      void draw();
 
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
-		
-    ofBoxPrimitive box; // 立方体
-    ofSpherePrimitive sphere; // 球
-    ofEasyCam cam; // カメラ
-    ofLight light; // ライト
+      void keyPressed(int key);
+      void keyReleased(int key);
+      void mouseMoved(int x, int y );
+      void mouseDragged(int x, int y, int button);
+      void mousePressed(int x, int y, int button);
+      void mouseReleased(int x, int y, int button);
+      void mouseEntered(int x, int y);
+      void mouseExited(int x, int y);
+      void windowResized(int w, int h);
+      void dragEvent(ofDragInfo dragInfo);
+      void gotMessage(ofMessage msg);
+
+      ofBoxPrimitive box; // 立方体
+      ofSpherePrimitive sphere; // 球
+      ofEasyCam cam; // カメラ
+      ofLight light; // ライト
 };
 ```
 
 ofApp.cppに書く実行プログラムは以下。
-```
+```javascript
 #include "ofApp.h"
 
 //--------------------------------------------------------------
