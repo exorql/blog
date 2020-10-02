@@ -1,5 +1,5 @@
 ---
-title: "Haskell 開発環境構築 (macOS)"
+title: "Haskell入門 開発環境構築 (MacOS)"
 date: "2020-10-01T22:40:32.169Z"
 template: "post"
 draft: false
@@ -15,7 +15,7 @@ haskell-ide-engineやghcideはhaskell-language-serverに統合されたのでVis
 haskell-ide-engineに比べてhaskell-language-serverの方が安定していて使い勝手が良いです。
 
 ## 1. [公式](https://docs.haskellstack.org/en/stable/README/#how-to-install)を参考にstackをインストール
-brewが入っている場合はbrewでもいいです
+brewが入っている場合はbrewで
 ```bash
 $ brew install haskell-stack
 
@@ -56,14 +56,14 @@ $ stack exec my-project-exe
 ## 4. Visual Studio Codeで拡張を入れる
 https://marketplace.visualstudio.com/items?itemName=haskell.haskell
 <br>
-先程作ったプロジェクトをVisual Studio Codeで開くと対応するhaskell language serverのバイナリを自動でダウンロードしてIDE周りを設定してくれる．
+先程作ったプロジェクトをVisual Studio Codeで開くと対応するhaskell language serverのバイナリを自動でダウンロードしてIDE周りを設定してくれる。<br>
 マルチプロジェクトは正しく動かない場合があるので，そういう場合は`hie.yaml`を参考にして書いてプロジェクトルートに追加する
 https://github.com/haskell/haskell-language-server#project-configuration
 
 以上でHaskellの環境ができます。
 
-## haskell開発
-お決まりのHello World!を出力するファイルを作成します。
+## HaskellでHello World!
+環境構築ができたので、お決まりのHello World!を出力するプログラムを作成してHaskell開発のイメージを掴んでいきます。<br>
 ファイル名はhoge.hs
 ```haskell
 main = do
