@@ -1,5 +1,5 @@
 ---
-title: "openFrameworks入門　開発環境構築（MacOS）"
+title: "openFrameworks入門 開発環境構築（MacOS）"
 date: "2020-09-26T22:40:32.169Z"
 template: "post"
 draft: false

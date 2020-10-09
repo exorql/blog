@@ -15,13 +15,19 @@ description: "ウェブパフォーマンスを良くする最大の目的はユ
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/4839966001/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4839966001&linkCode=as2&tag=10010d-22&linkId=ddffdedd959ea4e72a6ce4b90a884a61"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4839966001&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=10010d-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&l=am2&o=9&a=4839966001" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 SEOに関わるエンジニア・デザイナーにお勧めしたい
-[現場のプロから学ぶ SEO技術バイブル(特典PDF付き)](https://amzn.to/3dn4PhA) という本の中の「サイトの高速化について」読んだものをメモとして残しておく。
+[現場のプロから学ぶ SEO技術バイブル(特典PDF付き)](https://amzn.to/3dn4PhA) という本の中の「サイトの高速化について」読んだものをメモとして残しておく。サービスによってどこをどこまでやるかは変わってくると思うので参考程度に見ていただければと思います。
 
 本書はSEOとはから始まり、施策の効果検証、内部施策と外部施策、構造化マークアップやサイトの高速化など現場のエンジニアやデザイナー向けに、踏み込んだ実装方法などが解説されていてとても良書だと思う。
 SEO嫌いなエンジニアや仕事で機会が出来た方にぜひお勧めしたい本です。
 
 ## Webパフォーマンスを上げる目的
-ウェブパフォーマンスを良くする最大の目的はユーザーがある目的のために費やす時間やリソースをできる限り少なくすることで、その分ユーザーの時間を豊にできることだと思います。そのためウェブページの初期ロード時のパフォーマンスだけでなくウェブページ内でのインタラクションの描画のパフォーマンスも重要といえるでしょう。
+ウェブパフォーマンスを良くする最大の目的はユーザーがある目的のために費やす時間やリソースをできる限り少なくすることで、その分ユーザーの時間を豊にできることだと思います。そのためウェブページの初期ロード時のパフォーマンスだけでなくウェブページ内でのインタラクションの描画のパフォーマンスも重要といえます。<br>
+SEOの文脈でもページスピードは一定の影響があるので最低限の対策は必要です。
+https://www.suzukikenichi.com/blog/googlebot-may-limit-crawling-if-time-spent-downloading-a-page-is-over-1000ms/
+<br>
+ご興味がある方は自サイトの計測をしてみると良いと思います。
+※ページスピード計測ツール
+https://developers.google.com/speed/pagespeed/insights/?hl=JA
 
 ## レンダリング処理の高速化（CSS）
 CSSで対応すべき点は以下の3つ
