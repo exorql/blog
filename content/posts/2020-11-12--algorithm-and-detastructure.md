@@ -4,12 +4,12 @@ date: "2020-11-12T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "algorithm-and-detastructure"
-category: "アルゴリズム"
+category: "アルゴリズムとデータ構造"
 tags:
-  - ""
-  - ""
-  - ""
-description: ""
+  - "アルゴリズム"
+  - "アルゴリズム入門"
+  - "計算量"
+description: "今回は計算量について。計算量は、アルゴリズムの良し悪しを測る重要な指標です。計算量を知ることで、実装しようとしているアルゴリズムを実際にプログラミングしなくてもコンピュータでの実行に要する時間を、予め大雑把に見積もることができます。"
 ---
 
 <a href="https://www.amazon.co.jp/dp/4065128447/ref=as_li_ss_il?coliid=I3OGOYY4EIZG6M&colid=KYELU2JITLP4&psc=1&ref_=lv_ov_lig_dp_it&linkCode=li3&tag=10010d-22&linkId=0e20fbc29da869a65b4f6a92727566c4&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4065128447&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4065128447" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
