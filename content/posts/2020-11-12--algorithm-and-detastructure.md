@@ -14,7 +14,7 @@ description: "今回は計算量について。計算量は、アルゴリズム
 
 <a href="https://www.amazon.co.jp/dp/4065128447/ref=as_li_ss_il?coliid=I3OGOYY4EIZG6M&colid=KYELU2JITLP4&psc=1&ref_=lv_ov_lig_dp_it&linkCode=li3&tag=10010d-22&linkId=0e20fbc29da869a65b4f6a92727566c4&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4065128447&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4065128447" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-上記の本を中心にアルゴリズムとデータ構造について学習中なので理解を深めるためにまとめていきます。ざっと流し読みしましたが説明が丁寧でとても分かりやすいです。<br>
+上記の本を中心にアルゴリズムとデータ構造について学習中なので理解を深めるためにまとめていきます。ざっと流し読みしましたが説明が丁寧でとても分かりやすいです！<br>
 今回は計算量について。計算量は、アルゴリズムの良し悪しを測る重要な指標です。
 計算量を知ることで、実装しようとしているアルゴリズムを実際にプログラミングしなくてもコンピュータでの実行に要する時間を、予め大雑把に見積もることができます。
 
@@ -29,7 +29,7 @@ description: "今回は計算量について。計算量は、アルゴリズム
   
 ### 最悪時間計算量 / 平均時間計算量
 アルゴリズムの実行時間は、インプットデータの偏りによっては計算が早く終了するばいいもあれば遅く終了する場合もある。<br>
-最悪時間計算量は最悪ケースにおける計算量。平均時間計算量は入力データに対する計算量の平均値。
+最悪時間計算量は最悪ケースにおける計算量で平均時間計算量は入力データに対する計算量の平均値のこと。
 
 ## ランダウのO記法
 O記法は関数T(N)の計算スピードは早くてもP(N)と同じくらいという意味で用います。いわゆる関数の上界。
