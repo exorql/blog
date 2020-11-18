@@ -4,9 +4,9 @@ date: "2020-11-03T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "rendering-pipeline"
-category: "メディアアート"
+category: "openFrameworks"
 tags:
-  - "openFrameworks"
+  - "メディアアート"
   - "クリエイティブ・コーディング"
   - "3D"
 description: "openFrameworksは3Dグラフィックスの描画のためのライブラリとしてOpenGLというプログラミングのインターフェイスを使用しています。OpenGLは2次元の図形だけでなく、3次元のグラフィクスを簡単に扱うことが可能です。
