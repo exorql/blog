@@ -32,7 +32,7 @@ module.exports = {
       email: 'w.haru10n@gmail.com',
       facebook: 'haruto.watanabe.5',
       telegram: '#',
-      twitter: 'haruzin',
+      twitter: 'exorql',
       github: 'exorql',
       rss: '',
       vkontakte: '',
