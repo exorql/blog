@@ -30,7 +30,6 @@ description: "この本の良いところは、各項目に「教養」「実用
 <a href="https://www.amazon.co.jp/%E4%B8%AD%E5%AD%A63%E5%B9%B4%E9%96%93%E3%81%AE%E6%95%B0%E5%AD%A6%E3%82%928%E6%99%82%E9%96%93%E3%81%A7%E3%82%84%E3%82%8A%E7%9B%B4%E3%81%99%E6%9C%AC-%E9%96%93%E5%9C%B0-%E7%A7%80%E4%B8%89/dp/4569795676/ref=as_li_ss_il?_encoding=UTF8&qid=&sr=&linkCode=li3&tag=10010d-22&linkId=a26229190f2b215a5e76499a9ec59b49&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4569795676&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=4569795676" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 プライドを捨てて中学数学から復習しました。この本は読みやすくスラスラ読み進めることができました。
-Kindle Unlimitedで無料で読むこともできるのでおすすめです。
 
 ### 長岡先生の授業が聞ける高校数学の教科書数学
 
