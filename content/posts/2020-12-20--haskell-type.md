@@ -14,13 +14,22 @@ Haskellのスマートなコンパイラは、関数や変数の使い方をも�
 
 <a href="https://www.amazon.co.jp/%E5%85%A5%E9%96%80Haskell%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-Will-Kurt-ebook/dp/B07SFCMP66/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E5%85%A5%E9%96%80haskell&qid=1602255224&sr=8-1&linkCode=li3&tag=10010d-22&linkId=22ea6fa71a25f08eccd8692609089c3f&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07SFCMP66&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=10010d-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=10010d-22&language=ja_JP&l=li3&o=9&a=B07SFCMP66" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-今回は型についてまとめました。
+Haskellにおいてデータの型を作成することは、オブジェクト指向言語においてクラスを作成することと同じくらい重要です。<br>
+今どきの型システムを体感してみたい人はぜひ触ってみてください。
 
-Haskellと他の関数型プログラミング言語との違いは、Haskellの型システムにあります。<br>
-Haskellの変数や関数で型を参照していないのは、型推論に大きく依存しているためです。
-Haskellのスマートなコンパイラは、関数や変数の使い方をもとに使用されている型を特定することができます。
+今回はHaskellの型システムについてまとめました。[これ](http://localhost:8000/posts/haskell-intro)の続き。
 
-Haskellにおいてデータの型を作成することは、オブジェクト指向言語においてクラスを作成することと同じくらい重要です。
+### 目次
+[一般的な型](#anchor1) <br>
+[型コンストラクタとは](#anchor2)<br>
+[型シノニムとは](#anchor3)<br>
+[型クラスとは](#anchor4)<br>
+[インスタンス宣言](#anchor5)<br>
+[よく使う型クラス](#anchor6)<br>
+[カインド](#anchor7)<br>
+
+
+<a id="anchor1"></a>
 
 ## 一般的な型
 - Int 整数型．有界．64bit 固定長整数
@@ -50,6 +59,8 @@ Prelude> :t aList
 aList :: [[Char]]
 ```
 
+<a id="anchor2"></a>
+
 ## 型コンストラクタとは
 dataキーワードを使うと新しい型を定義していることをHaskellに認識させることができる。<br>
 データコンストラクタを独自に定義すると、常に正しい型を使用しているかどうかをコンパイラでチェックできるようになる。<br>
@@ -67,6 +78,8 @@ Male と Female はどちらも値コンストラクタであり、値コンス�
 ```haskell
 data Sex = Male | Female
 ```
+
+<a id="anchor3"></a>
 
 ## 型シノニムとは
 シノニムとは、別名という意味で、型シノニムは文字通り、ある型の別名を表す。<br>
@@ -89,6 +102,8 @@ data Name = Name {
   lastName :: String
 }
 ```
+
+<a id="anchor4"></a>
 
 ## 型クラスとは
 Haskellの型システムにおいて重要な抽象化の一つ。型クラスのクラスはオブジェクト指向におけるクラスとは異なりインタフェースや抽象クラスの位置付け。<br>
@@ -133,6 +148,8 @@ class 型クラス a where
   ...
 ```
 
+<a id="anchor5"></a>
+
 ## インスタンス宣言
 型クラスを実装する具象クラス (Haskellではデータ型) のことを、型クラスのインスタンスと呼ぶ。<br>
 オブジェクト指向におけるインスタンス（クラスの実態）とは異なりクラスの実装にあたる。<br>
@@ -144,6 +161,8 @@ instance Show SixSidedDie where
   show S2 = "two"
   show S3 = "three"
 ```
+
+<a id="anchor6"></a>
 
 ### よく使う型クラス
 #### Ord 型クラス
@@ -231,6 +250,8 @@ Prelude> n = 6 :: Int
 Prelude> :t Box n
 Box n :: Box Int
 ```
+
+<a id="anchor7"></a>
 
 ## カインド
 Haskellにはカインド（型の型）といった仕組みがある。<br>
