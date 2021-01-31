@@ -17,7 +17,7 @@ Haskellのスマートなコンパイラは、関数や変数の使い方をも�
 Haskellにおいてデータの型を作成することは、オブジェクト指向言語においてクラスを作成することと同じくらい重要です。<br>
 今どきの型システムを体感してみたい人はぜひ触ってみてください。
 
-今回はHaskellの型システムについてまとめました。[これ](http://localhost:8000/posts/haskell-intro)の続き。
+今回はHaskellの型システムについてまとめました。[これ](https://blog.harutowatanabe.com/posts/haskell-intro)の続き。
 
 ### 目次
 [一般的な型](#anchor1) <br>
